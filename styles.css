@@ -1,0 +1,66 @@
+/* Background: Sky Blue to Green Gradient */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #66ccff, #33cc99);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Weather Box */
+.weather-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 350px;
+}
+
+/* Input Field */
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button */
+button {
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #ff6a00, #ee0979);
+}
+
+/* Weather Details */
+#weather-result {
+    margin-top: 20px;
+}
+
+#weather-icon {
+    width: 80px;
+    height: 80px;
+}
+
+h3 {
+    margin: 10px 0;
+    font-size: 22px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px 0;
+}
